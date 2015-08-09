@@ -1,7 +1,7 @@
 Swift-Stack
 ===========
 
-Simple Stack implemantation on Swift Language. Just copy the "Stack.swift" file  in your project file.
+Simple Generic Stack implemantation on Swift Language. Just copy the "Stack.swift" file  in your project file.
 
 Stack Class is a Generic class. There are Two type initializer. Default one size is 7. Other initializer size up to you.
 <hr>
