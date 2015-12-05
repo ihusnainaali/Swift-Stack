@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 class Stack<T> {
     
     private var top: Int
@@ -32,6 +33,7 @@ class Stack<T> {
             top++
             return true
         }
+        print("Stack is full! Could not pushed.")
         return false
     }
     
@@ -40,6 +42,8 @@ class Stack<T> {
             top--
             return items.removeLast()
         }
+        
+        print("Stack is empty! Could not popped.")
         return nil
     }
     
@@ -64,8 +68,9 @@ class Stack<T> {
     
     func printStack() {
         for var i = items.count-1; i>=0; i-- {
-            println("| \(items[i]) |")
+            print("|  \(items[i])  |")
         }
-        println("-----")
+        print(" ------ ")
+        print("\n\n")
     }
 }
